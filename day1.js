@@ -36,9 +36,7 @@
 // });
 
 
-const { secureHeapUsed } = require("crypto");
 const fs = require("fs");
-const { formatWithOptions } = require("util");
 
 fs.readFile("input.txt", "utf-8", (err, data) => {
 	if (err) {
